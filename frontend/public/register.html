@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Todolist</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-50 h-screen flex justify-center items-center" >
+
+    <!-- Form Container  -->
+    <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold text-center text-gray-700 mb-6">Create Account</h2>
+        <p class="text-center text-gray-500">Join us and start organizing your task today.</p>
+
+        <form action="" class="space-y-4">
+            <!-- name input  -->
+            <div class="mb-4">
+                <label for="fullname" class="block text-gray-600 font-medium">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" class="mt-1 p-2 block w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" >
+            </div>
+            <!-- name input  -->
+
+            <!-- email input  -->
+            <div class="mb-4">
+                <label for="email" class="block text-gray-600 font-medium">Email</label>
+                <input type="email" id="email" name="email" placeholder="youremail@example.com" class="mt-1 p-2 w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            </div>
+            <!-- email input  -->
+
+            <!-- password input  -->
+            <div class="mb-4">
+                <label for="password" class="block text-gray-600 font-medium">Password</label>
+                <input type="password" id="password" name="password" placeholder="yourpassword" class="mt-1 p-2 w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            </div>
+            <!-- password input  -->
+
+            <!-- confirmation password input  -->
+            <div class="mb-4">
+                <label for="confirmationPassword" class="block text-gray-600 font-medium">Confirmation Password</label>
+                <input type="confirmationPassword" id="confirmationPassword" name="confirmationPassword" placeholder="yourConfirmationPassword" class="mt-1 p-2 w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+            </div>
+            <!-- confirmation password input  -->
+
+            <!-- Remember Me Checkbox -->
+            <div class="flex items-center mb-4">
+                <input type="checkbox" id="rememberMe" name="rememberMe" class="h-4 w-4 text-blue-500 focus:ring-blue-500 border-gray-300 rounded">
+                <label for="rememberMe" class="ml-2 text-sm text-gray-600">Remember Me</label>
+            </div>
+            <!-- Remember Me Checkbox -->
+
+            <!-- submit button  -->
+            <div class="flex justify-center">
+                <button type="submit" class="w-full mt-5 py-3 px-6 bg-blue-500 text-white rounded-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500">Registet</button>
+            </div>
+        </form>
+
+        <!-- social login  -->
+        <div class="space-y-4">
+            <p class="text-center text-gray-600">Or register with</p>
+
+             <!-- Google Login -->
+             <button class="w-full py-3 px-6 border border-gray-300 rounded-lg flex items-center justify-center space-x-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <img src="https://www.flaticon.com/free-icon/google_300221" alt="Google" class="w-6 h-6">
+                <span>Sign up with Google</span>
+            </button>
+
+            <!-- LinkedIn Login -->
+            <button class="w-full py-3 px-6 border border-gray-300 rounded-lg flex items-center justify-center space-x-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn" class="w-6 h-6">
+                <span>Sign up with LinkedIn</span>
+            </button>
+
+            <!-- Twitter Login -->
+            <button class="w-full py-3 px-6 border border-gray-300 rounded-lg flex items-center justify-center space-x-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter" class="w-6 h-6">
+                <span>Sign up with Twitter</span>
+            </button>
+        </div>
+
+        <!-- end of submit button  -->
+        <p class="mt-4 text-center text-gray-600">Already have an account? <a href="#" class="text-blue-500">Login</a></p>
+    </div>
+    <!-- Form Container  -->
+</body>
+</html>

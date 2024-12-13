@@ -1,0 +1,30 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist
+/build
+
+# Tailwind PurgeCSS cache
+/.tailwind
+
+# Editor config files
+/.vscode/
+/.idea/
+
+# Logs
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Optional: Package lock files (if you want to ignore them)
+# package-lock.json
+# yarn.lock
+
+# Miscellaneous
+*.tgz
+*.bak
+*.tmp
